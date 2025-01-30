@@ -8,12 +8,19 @@ This project is a Flask-based web application for classifying text into "Positiv
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone (https://github.com/surajraghuwanshi05/imdb_review.git)
+   cd (https://github.com/surajraghuwanshi05/imdb_review.git)
    ```
-   
 
-2. **Install Dependencies**:
+2. **Activate virtual envirnoment**
+   ``` .venv\Scripts\Activate```
+   
+### OR 
+
+** Create env**
+``` python -m venv envname```
+
+. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
@@ -37,10 +44,8 @@ The `TfidfVectorizer` from `scikit-learn` was used to convert the preprocessed t
 ## 🚀 Run Instructions
 
 ### 1. Train the Model
-If you need to train or retrain the model, run the training script (if available) using the following command:
-```bash
-python train_model.py
-```
+If you need to train or retrain the model, run the training script in model_trainer cell by cell:
+
 
 
 ### 2. Start the Flask Server
