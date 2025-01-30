@@ -1,0 +1,88 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+}
+.container-fluid{
+    padding: 7% 15%;
+
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+p{
+  color:#DFF6FF;
+  font-family: 'Montserrat-light'
+}
+
+/* titile section */
+#title{
+  background-color:#86B6F6;
+  text-align:left
+}
+#title .container-fluid{
+padding:1% 10% 1%;
+}
+
+
+.big-heading{
+
+ font-size: 2.5rem;
+ line-height: 1.5;
+ color:#FFFFFF
+}
+
+.section-heading{
+    font-size:2 rem;
+    line-height:1.5;
+}
+
+
+
+/* navigation bar */
+
+.navbar{
+ padding: 0 0 2.5rem 0;
+}
+.navbar-brand{
+ font-family: "Ubuntu";
+ font-size: 2.5rem;
+ font-weight: bold;
+}
+.nav-item{
+    padding: 0 16px;
+    color: #FFFFFF !important;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light'
+}
+
+
+
+/* CSS for positive sentiment */
+.positive {
+    color: green;
+    font-size: 2.0rem;
+
+}
+/* Text Box*/
+.text-box{
+    padding: 10%;
+    font-family:"Ubuntu";
+
+
+}
+
+/* CSS for negative sentiment */
+.negative {
+    color: red;
+    font-size: 2.0rem;
+}
+
+
+
+
